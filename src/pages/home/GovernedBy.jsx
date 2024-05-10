@@ -4,6 +4,7 @@ import Travel1 from "../../assets/Travel1.json";
 import Host from "../../assets/Host.json";
 import Options from "../../assets/Options.json";
 import Virtual from "../../assets/Virtual.json";
+import Features from "./Features";
 
 const GovernedBy = () => {
   return (
@@ -96,6 +97,10 @@ const GovernedBy = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="bg-secondary ">
+        <Features />
       </div>
       <div className="py-20 bg-secondary  flex justify-center items-center flex-col overflow-hidden space-y-12">
         <div className="w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex justify-center items-start flex-col space-y-16">
