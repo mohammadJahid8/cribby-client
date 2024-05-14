@@ -7,10 +7,10 @@ const Navbar = () => {
   const navLinks = [
     { target: "/home", label: "Home" },
     { target: "/about", label: "About Us" },
-    { target: "/contact", label: "Contact Us" },
     { target: "/", label: "Docs" },
     { target: "/", label: "Buy Cribby" },
     { target: "/", label: "Dextools" },
+    { target: "/contact", label: "Contact Us" },
   ];
 
   return (
@@ -27,19 +27,19 @@ const Navbar = () => {
             </Link>
 
             <div className="flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24">
-              <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden text-primary">
+              <ul className="flex-1 flex justify-center items-center gap-10 max-lg:hidden text-primary">
                 {navLinks.map((item) => (
                   <li key={item.label}>
                     <Link
                       to={item.target}
-                      className="font-montserrat leading-normal text-lg text-slate-gray"
+                      className="font-montserrat leading-normal text-base text-slate-gray"
                     >
                       {item.label}
                     </Link>
                   </li>
                 ))}
                 <li>
-                  <Link className="font-montserrat leading-normal text-lg p-btn rounded-full">
+                  <Link className="font-montserrat leading-normal text-base p-btn rounded-full">
                     Cribby Web App
                   </Link>
                 </li>

@@ -1,6 +1,8 @@
 import Lottie from "lottie-react";
-import ocean from "../../assets/ocean.json";
-import travel from "../../assets/travel.json";
+import Icon1V2 from "../../assets/Icon1V2.json";
+import Icon2V2 from "../../assets/Icon2V2.json";
+import Icon3V2 from "../../assets/Icon3V2.json";
+import Icon4V2 from "../../assets/Icon4V2.json";
 
 const Tokenomics = () => {
   return (
@@ -11,16 +13,16 @@ const Tokenomics = () => {
             Cribby Tokenomics
           </h2>
         </div>
-        <div className="w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex justify-center items-center">
+        {/* <div className="w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex justify-center items-center">
           <Lottie className="w-full md:w-6/12" animationData={ocean} />
-        </div>
+        </div> */}
       </div>
       <div className="py-20 bg-secondary  flex justify-center items-center flex-col overflow-hidden space-y-12">
         <div className=" w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex flex-col justify-center items-center ">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-36">
             <div className="flex flex-col md:flex-row justify-center items-center gap-5 w-6/12 md:w-auto mx-auto">
-              <div className="bg-primary p-2 rounded-box ">
-                <Lottie className="" animationData={travel} />
+              <div className="rounded-3xl">
+                <Lottie className="" animationData={Icon1V2} />
               </div>
               <div className="space-y-4 text-center md:text-start">
                 <h3 className="text-pink text-xl md:text-2xl font-medium">
@@ -35,8 +37,8 @@ const Tokenomics = () => {
               </div>
             </div>
             <div className="flex flex-col md:flex-row justify-center items-center gap-5 w-6/12 md:w-auto mx-auto">
-              <div className="bg-primary p-2 rounded-box ">
-                <Lottie className="" animationData={travel} />
+              <div className="rounded-3xl">
+                <Lottie className="" animationData={Icon2V2} />
               </div>
               <div className="space-y-4 text-center md:text-start">
                 <h3 className="text-pink text-xl md:text-2xl font-medium">
@@ -52,8 +54,8 @@ const Tokenomics = () => {
               </div>
             </div>
             <div className="flex flex-col md:flex-row justify-center items-center gap-5 w-6/12 md:w-auto mx-auto">
-              <div className="bg-primary p-2 rounded-box ">
-                <Lottie className="" animationData={travel} />
+              <div className="rounded-3xl">
+                <Lottie className="" animationData={Icon3V2} />
               </div>
               <div className="space-y-4 text-center md:text-start">
                 <h3 className="text-pink text-xl md:text-2xl font-medium">
@@ -68,8 +70,8 @@ const Tokenomics = () => {
               </div>
             </div>
             <div className="flex flex-col md:flex-row justify-center items-center gap-5 w-6/12 md:w-auto mx-auto">
-              <div className="bg-primary p-2 rounded-box ">
-                <Lottie className="" animationData={travel} />
+              <div className="rounded-3xl">
+                <Lottie className="" animationData={Icon4V2} />
               </div>
               <div className="space-y-4 text-center md:text-start">
                 <h3 className="text-pink text-xl md:text-2xl font-medium">

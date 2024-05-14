@@ -1,16 +1,12 @@
 import Lottie from "lottie-react";
-import ocean from "../../assets/ocean.json";
-import Travel1 from "../../assets/Travel1.json";
-import Host from "../../assets/Host.json";
-import Options from "../../assets/Options.json";
-import Virtual from "../../assets/Virtual.json";
+import monitor from "../../assets/monitor.json";
 import Features from "./Features";
 
 const GovernedBy = () => {
   return (
     <>
-      <div className="py-20 bg-gradient-to-b from-neutral to-secondary  flex justify-center items-center flex-col overflow-hidden space-y-12">
-        <div className="md:w-8/12 w-10/12 mx-auto text-white text-center space-y-5">
+      <div className="pt-20 flex justify-center items-center flex-col overflow-hidden space-y-12">
+        <div className="md:w-8/12 w-10/12 mx-auto text-center space-y-5">
           <h2 className="text-4xl md:text-6xl md:leading-[5rem] tracking-wide">
             Meet CribbyAI <br /> Your Personal Rental Assistant
           </h2>
@@ -27,20 +23,23 @@ const GovernedBy = () => {
           </p>
         </div>
         <div className="w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex justify-center items-center">
-          <Lottie className="w-full md:w-6/12" animationData={ocean} />
-          {/* <video autoPlay loop muted className="w-80 h-80">
-            <source src="/hero.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video> */}
+          <Lottie className="w-full md:w-6/12" animationData={monitor} />
+          {/* <div className="w-full md:w-8/12">
+            <Lottie className="z-0" loop={true} animationData={hero} />
+            <video autoPlay loop muted>
+              <source src="/MeetCribby.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div> */}
         </div>
       </div>
-      <div className="py-20 bg-secondary  flex justify-center items-center flex-col overflow-hidden space-y-12">
+      <div className="py-20 bg-gradient-to-b from-neutral to-secondary  flex justify-center items-center flex-col overflow-hidden space-y-12">
         <div className=" w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex flex-col justify-center items-center ">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-36">
             <div className="flex flex-col md:flex-row justify-center items-center gap-5 w-6/12 md:w-auto mx-auto">
-              <div className=" rounded-box ">
+              {/* <div className=" rounded-box ">
                 <Lottie className="" animationData={Travel1} />
-              </div>
+              </div> */}
               <div className="space-y-4 text-center md:text-start">
                 <h3 className="text-pink text-xl md:text-2xl font-medium">
                   Travel Insights
@@ -52,9 +51,9 @@ const GovernedBy = () => {
               </div>
             </div>
             <div className="flex flex-col md:flex-row justify-center items-center gap-5 w-6/12 md:w-auto mx-auto">
-              <div className=" rounded-box ">
+              {/* <div className=" rounded-box ">
                 <Lottie className="" animationData={Host} />
-              </div>
+              </div> */}
               <div className="space-y-4 text-center md:text-start">
                 <h3 className="text-pink text-xl md:text-2xl font-medium">
                   Host Tools
@@ -67,9 +66,9 @@ const GovernedBy = () => {
               </div>
             </div>
             <div className="flex flex-col md:flex-row justify-center items-center gap-5 w-6/12 md:w-auto mx-auto">
-              <div className=" rounded-box ">
+              {/* <div className=" rounded-box ">
                 <Lottie className="" animationData={Options} />
-              </div>
+              </div> */}
               <div className="space-y-4 text-center md:text-start">
                 <h3 className="text-pink text-xl md:text-2xl font-medium">
                   Eco-Friendly Options
@@ -81,9 +80,9 @@ const GovernedBy = () => {
               </div>
             </div>
             <div className="flex flex-col md:flex-row justify-center items-center gap-5 w-6/12 md:w-auto mx-auto">
-              <div className=" rounded-box ">
+              {/* <div className=" rounded-box ">
                 <Lottie className="" animationData={Virtual} />
-              </div>
+              </div> */}
               <div className="space-y-4 text-center md:text-start">
                 <h3 className="text-pink text-xl md:text-2xl font-medium">
                   Virtual Tours (Coming Soon)
@@ -99,12 +98,12 @@ const GovernedBy = () => {
         </div>
       </div>
 
-      <div className="bg-secondary ">
+      <div className="bg-secondary pb-20">
         <Features />
       </div>
-      <div className="py-20 bg-secondary  flex justify-center items-center flex-col overflow-hidden space-y-12">
+      <div className="py-20 bg-white  flex justify-center items-center flex-col overflow-hidden space-y-12">
         <div className="w-11/12 md:w-10/12 lg:w-[1100px] mx-auto flex justify-center items-start flex-col space-y-16">
-          <h1 className="text-white">
+          <h1 className="">
             <span className="text-[4rem] md:text-[8rem] lg:text-[10rem] leading-[4.5rem] md:leading-[8rem] lg:leading-[10rem]">
               Join the
             </span>
@@ -113,7 +112,7 @@ const GovernedBy = () => {
               CRIBBY Community
             </span>
           </h1>
-          <div className="text-white flex flex-col md:flex-row items-start md:items-center  justify-start gap-10">
+          <div className=" flex flex-col md:flex-row items-start md:items-center  justify-start gap-10">
             <h3 className="text-2xl font-light">Explore the Cribby app</h3>
             <button className="p-btn rounded-full">Cribby.io Web App</button>
           </div>

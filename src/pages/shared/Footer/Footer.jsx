@@ -6,14 +6,14 @@ const Footer = () => {
   return (
     <div className="w-full h-auto bg-secondary py-10">
       <div className=" w-11/12 md:w-10/12 lg:w-[1100px] mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-16">
+        <div className="grid grid-cols-6 justify-between items-start md:items-center gap-28">
           <Link
-          // style={{ fontFamily: "Lobster, sans-serif" }}
-          // className="footer-title text-[6rem] md:text-[10rem]"
+            // style={{ fontFamily: "Lobster, sans-serif" }}
+            className="col-span-4"
           >
             <img src="/footer.png" alt="footer" />
           </Link>
-          <div className="space-y-8 w-full">
+          <div className="space-y-8 w-full col-span-2">
             <div className="font-medium">
               <h4 className="text-pink">
                 Stay informed about the newest features and developments with
@@ -121,7 +121,7 @@ const Footer = () => {
               smart contract technology, Cribby enhances user experiences with
               seamless, transparent, and secure transactions.
             </p>
-            <button className="p-btn rounded-full">Developer guide</button>
+            <button className="p-btn rounded-full">Cribby App</button>
           </div>
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-pink">
@@ -131,7 +131,7 @@ const Footer = () => {
               Join us as a partner and play a pivotal role in shaping the future
               of the Cribby ecosystem.
             </p>
-            <button className="p-btn rounded-full">Validator guide</button>
+            <button className="p-btn rounded-full">Become a Partner</button>
           </div>
           <div className="space-y-4">
             <h2 className="text-2xl font-semibold text-pink">

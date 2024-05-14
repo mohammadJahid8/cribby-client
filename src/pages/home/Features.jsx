@@ -85,7 +85,7 @@ const Features = () => {
   ];
 
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="w-11/12 max-w-5xl mx-auto">
       <h2 className="text-4xl md:text-6xl md:leading-[5rem] tracking-wide text-white py-10">
         Cribby's Advanced Features
       </h2>
