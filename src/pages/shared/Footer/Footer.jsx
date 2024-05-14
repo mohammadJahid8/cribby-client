@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="w-full h-auto bg-secondary py-10">
       <div className=" w-11/12 md:w-10/12 lg:w-[1100px] mx-auto">
-        <div className="grid grid-cols-6 justify-between items-start md:items-center gap-28">
+        <div className="grid grid-cols-1 md:grid-cols-6 justify-between items-start md:items-center gap-10 md:gap-28">
           <Link
             // style={{ fontFamily: "Lobster, sans-serif" }}
             className="col-span-4"

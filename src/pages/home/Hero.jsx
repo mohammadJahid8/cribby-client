@@ -14,7 +14,7 @@ const Hero = () => {
         </div>
         <div className="space-y-4 ">
           <h2 className="hero-title text-6xl md:text-[5rem] lg:text-[5.2rem] font-semibold bg-gradient-to-r from-secondary to-neutral">
-            Decentralized <br /> Secure <br /> Innovative <br /> Transparent.
+            Connected <br /> Reliable <br /> Innovative <br /> Blockchain.
           </h2>
           <p className="text-xl md:text-3xl text-secondary">
             Blockchain-Driven Property Rentals

@@ -101,7 +101,7 @@ const BestOfAllWorlds = () => {
         </div>
         <div className="scrolling-text-container">
           <p className="scrolling-text text-5xl md:text-9xl font-medium text-secondary">
-            Introduction to Cribby.com
+            Introduction to Cribby.io
           </p>
         </div>
         <div className="md:w-6/12 transform md:-translate-y-32 relative">
